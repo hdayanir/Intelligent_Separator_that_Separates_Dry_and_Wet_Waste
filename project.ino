@@ -56,7 +56,7 @@ void loop() {             // Arduino'nun yapmasi gereken islemler buraya yazilir
       delay(1000);                      // 1 saniye bekle
       servo.write(35);                  // Servo motor, 35 derece konumuna gonderildi
    }
-   else{                               // Onceki belirlenen durumlardan farkli bir durum disinda bu komut satiri calistirilsin 
+   else{                                // Onceki belirlenen durumlardan farkli bir durum disinda bu komut satiri calistirilsin 
       Serial.print("Okunan deger = ");  // Ekrana "Okunan deger = " yazdirildi
       Serial.print(olcum_sonucu);       // Nem sensorunden okunan veri "olcum_sonucu" degiskeni kullanilarak ekrana yazdirildi
       Serial.println("   (SABIT) ");    // Ekrana "   (SABIT) " yazdirildi
